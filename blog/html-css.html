@@ -1,39 +1,60 @@
-<h1>What is the difference between Margin, Border, and Padding? </h1>
-
-<h2><u>Basics</u></h2>
-<p><em> Think of elements as rectangles of pixels</em></p>
-<h3>Margin</h3>
-<ol>
-    <li>Margin dictates space outside the element</li>
-    <li>Useful for changing an element's position on the page</li>
-    <li>Useful for setting distance between elements</li>
-</ol>
-<h3>Padding</h3>
-<ol>
-    <li>Padding dictates space inside the element</li>
-    <li>Useful for adding space between content and borders</li>
-    <li>Userful for changing the size of an element e.g. create a larger button</li>
-</ol>
-<h3>Border</h3>
-<ol>
-    <li>Boundary between what's defined as inside an element and outside an element</li>
-    <li>Be default set to 0</li>
-    <li>Useful for stylistic purposes</li>
-</ol>
-<p>Source: https://blog.hubspot.com/website/css-margin-vs-padding</p>
-
-<br>
-<h2><u>Analogy</u></h2>
-<p> There is a room. In the room there is a hamster in a box. There is also an axolotl in an aquarium in the same room. 
-    The space between the box/aquarium and the wall of the room is the margin. The space between the box and the aquarium is also the margin.
-    To move the box and the aquarium closer together is like changing the margin between two elements. The space between the hamster and the box, or the axolotl and the aquarium 
-    is the padding. To increase the size of the box to give the hamster more room, can be likened to increasing the padding of an element. 
-    The border is the walls of the box or the walls of the aquarium. Making the glass walls on the aquarium thicker is like increasing the thickness of the border.</p>
-<br>
-
-<img src="https://hongxukang.github.io/blog/images/Boxmodeldiagram.jpg" alt="box model diagram" style="width: 50%"> 
-
-<footer>
-    
-
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles/blogpost.css">
+        <title>kang</title>
+    </head>
+    <body>
+        <div id = "nav">
+            <div id="navtext">
+                <a href ="index.html">home</a>
+                <img class="logo" src="images/seal.png" alt="icon" style="height: 50px;">
+                <a href ="blog.html">writing</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="blogtext">
+                <h1>What is the difference between Margin, Border, and Padding? </h1>
+                <p> We can think of elements (e.g. buttons) as rectangles of pixels.</p>
+                <h3>MARGIN</h3>
+                <ol>
+                    <li>Margin dictates space outside the element (or the rectangle of pixels)</li>
+                    <li>It is useful for changing an element's position on the page</li>
+                    <li>It is useful for setting the distance between elements</li>
+                </ol>
+                <h3>PADDING</h3>
+                <ol>
+                    <li>Padding dictates space inside the element</li>
+                    <li>It is useful for adding space between content and borders</li>
+                    <li>It is useful for changing the size of an element (e.g. create a larger button)</li>
+                </ol>
+                <h3>BORDER</h3>
+                <ol>
+                    <li>The border is the boundary between what's defined as inside an element and outside an element</li>
+                    <li>By default it is set to 0, meaning even if it is not visible, it is present</li>
+                </ol>
+                <br>
+                <p> An analogy may help the understanding. In a room there is a toy in a box and next to that box is a fruit in a jar. 
+                    The space between the box and the wall of the room is the margin. So if we were to increase the size of the room, say by knocking the walls down and building it a few meters away, that is 
+                    analogous to increasing the margin. Recall margin dictates the space outside the element. Another description of a margin is the space between the box and the jar.
+                    If we were to move the box and the jar closer together, it is analogous to changing the margin between two elements. The space between the toy and the box represents the padding. Increasing 
+                    the size of the box, is analogous to increasing the padding of an element. Recall padding dictates the space inside the element.
+                    The walls of the box represent the border. Making the walls thicker is analogous to increasing the thickness of the border.</p>
+                <br>
+                <br>
+                <br>
+                <img src="images/boxmodel.png" alt="Box-model Diagram" style="width:50%; margin-left: auto; margin-right: auto; "> 
+                <br>
+            </div>
+        </div>
+        <section class="section five">
+            <footer>
+                <a id="credits" href="#">CREDITS</a> 
+                <p>COPYRIGHT XUKANG HONG 2022 &copy; </p>
+            </footer>
+        </section>
+    </body>
+</html>
